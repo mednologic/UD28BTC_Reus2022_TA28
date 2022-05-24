@@ -104,10 +104,12 @@
 
 /* Posicionamiento de los elementos del slider */
 .content-slider figure:nth-child(1){transform: rotateY(0deg) translateZ(300px);}
-.content-slider figure:nth-child(2){transform: rotateY(90deg) translateZ(300px);}
-.content-slider figure:nth-child(3){transform: rotateY(180deg) translateZ(300px);}
-.content-slider figure:nth-child(4){transform: rotateY(270deg) translateZ(300px);}
-.content-slider figure:nth-child(5){transform: rotateY(360deg) translateZ(300px);}
+.content-slider figure:nth-child(2){transform: rotateY(60deg) translateZ(300px);}
+.content-slider figure:nth-child(3){transform: rotateY(120deg) translateZ(300px);}
+.content-slider figure:nth-child(4){transform: rotateY(180deg) translateZ(300px);}
+.content-slider figure:nth-child(5){transform: rotateY(240deg) translateZ(300px);}
+.content-slider figure:nth-child(6){transform: rotateY(300deg) translateZ(300px);}
+.content-slider figure:nth-child(7){transform: rotateY(360deg) translateZ(300px);}
 
 /* Animación para rotar el contenedor */
 @keyframes rotar{
