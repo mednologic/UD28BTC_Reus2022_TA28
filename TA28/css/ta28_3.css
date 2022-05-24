@@ -1,0 +1,37 @@
+/* Características del h1 */
+h1{
+    background-color: rgb(237, 193, 126);
+    color: rgb(255, 255, 255);
+    padding-left: 0.5%;
+    
+}
+/* Características del h2 */
+h2{
+    color: rgb(82, 82, 232);
+    font-weight: bold;
+    
+}
+/* Características del h3 variante 1 */
+h3_1{
+    display:inline;
+    color: rgb(82, 82, 232);
+}
+/* Características del h3, p sin salto de linea */
+h3, p { display:inline }
+/* Características del h3 variante 2*/
+.h3_2{
+    color: rgb(22, 22, 43);
+}
+/* Lista din puntos */
+ul{
+    list-style: none;
+}
+/* Características del contenedor */
+div{
+    margin-left: 5%;
+    margin-right: 55%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(230, 212, 185);
+}

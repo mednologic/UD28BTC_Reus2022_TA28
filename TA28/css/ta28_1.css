@@ -1,0 +1,24 @@
+/* importamos la fuente */
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+/* Caracteristicas del body */
+body{
+    background-color: #ffffff;
+}
+/* Características del contenedor */
+div{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #EFF8FE;
+}
+/* Características del h1 */
+h1{
+    font-family: 'Almendra SC', serif;  
+}
+/* Características del h2 */
+h2{
+    font-family: 'Almendra SC', serif;  
+}
+
+

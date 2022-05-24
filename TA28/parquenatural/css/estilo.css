@@ -1,0 +1,116 @@
+/* Importando la fuente */
+@import url('http://fonts.cdnfonts.com/css/lucida-sans-unicode');
+/* Características del body */
+body{
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    width: 900px;
+    margin: 0 auto;
+    padding: 0%;
+}
+
+.content{
+    width: 100%;
+}
+/* Características del contenedor principal, radio, margen, ...*/
+.content_principal{
+    margin: 5%;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border: 4px solid rgb(124, 124, 124);
+}
+/* Características de la imagen panoramica */
+.img_pano{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Características del contenedor 1 */
+.box1{
+    padding: 0%;
+    margin: 0%;
+    float:left;
+    position: relative;
+    width: 15%;
+}
+/* Características del contenedor 2 */
+.box2{
+    border-style: solid;
+    margin: 1%;
+    padding: 0.6%;
+    float:right;
+    position: relative;
+    width: 80%;
+}
+/* Características del h1 */
+h1{
+    text-align:center;
+}
+/* Características del p */
+p{
+    text-align: justify
+}
+/* Características del salto de linea */
+hr {
+    padding: 0;
+    margin: 0;
+    margin-top: -15px;
+    border-top: solid green;
+    
+}
+/* Características del h3 */
+h3{
+    color:darkslategray;
+}
+/* Características del conth2enedor */
+h2{
+    color: #a86932;
+}
+/* Características del boton */
+.button{
+    background-image: linear-gradient(
+    to top,
+    #0e9813,
+    #fbfbfb
+    );
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    height:30px;
+    width:100px;
+    margin: 3%;
+}
+ /* Características del boton seleccionado */
+.button_sel{
+    background-image: linear-gradient(
+    to top,
+    #eaea64,
+    #fbfbfb
+    );
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    height:30px;
+    width:100px;
+    margin: 3%;
+}
+/* Características del boton en hover */
+.button:hover {
+    background-image: linear-gradient(
+        to top,
+        #fbfbfb,
+        #0e9813
+        );
+    transition: 0.5s;
+}
+/* lista sin puntos */
+ul{
+    list-style-type: none;
+}
+
